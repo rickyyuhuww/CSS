@@ -31,13 +31,25 @@ body {
     display: flex;
 }
 
+
+a{
+    color: rgb(24, 141, 65);
+    text-decoration: none;
+}
+a:hover{
+    font-size: 20px;
+    color: rgb(40, 64, 49);
+    text-decoration: none;
+}
 ul a:hover {
     font-size: 20px;
-    color: blue;
+    color: rgb(40, 64, 49);
 
 }
 
 .sidebar.tiga {
+    padding: 20px;
+    color: rgb(60, 52, 5);
     background-color: rgb(232, 215, 148);
     padding: 20px;
     text-align: center;
@@ -46,6 +58,7 @@ ul a:hover {
     
 }
 .sidebar.satu {
+    color: rgb(5, 41, 26);
     background-color: rgb(19, 188, 112);
     padding: 20px;
     text-align: left;
@@ -54,6 +67,7 @@ ul a:hover {
     
 }
 .sidebar.dua {
+    
     padding-left: 50px;
     background-color: rgb(19, 188, 112);
     padding: 20px;
