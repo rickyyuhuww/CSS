@@ -1,0 +1,96 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: darkgray;
+    line-height: 1.65;
+
+}
+.semuanya {
+    width: 800px;
+    margin: 50px auto;
+    background-color: #61d4a8;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.logo {
+    text-align: center;
+    width: 800px;
+    margin: 50px auto;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container-satu{
+    width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+}
+
+ul a:hover {
+    font-size: 20px;
+    color: blue;
+
+}
+
+.sidebar.tiga {
+    background-color: rgb(232, 215, 148);
+    padding: 20px;
+    text-align: center;
+    flex: 4;
+    order: 2;
+    
+}
+.sidebar.satu {
+    background-color: rgb(19, 188, 112);
+    padding: 20px;
+    text-align: left;
+    flex: 3;
+    order: 0;
+    
+}
+.sidebar.dua {
+    padding-left: 50px;
+    background-color: rgb(19, 188, 112);
+    padding: 20px;
+    flex: 3;
+    order: 3;
+}
+.container-dua{
+    width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    box-sizing: border-box;
+    
+}
+.layanan{
+    padding: 20px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+.layanan.satu{
+    background-color: cyan;
+}
+.layanan.dua{
+    background-color: azure;
+}
+.layanan.tiga{
+    background-color: coral;
+}
+.akhiran {
+    text-align: center;
+    width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+@media(min-width: 600px){
+    .container-dua{
+        display: flex;
+        justify-content: space-between;
+    }
+}
